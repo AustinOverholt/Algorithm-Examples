@@ -4,3 +4,10 @@ C:\Github\AlgorithmExamples\AlgorithmExamples\bin\Debug\AlgorithmExamples.pdb
 C:\Github\AlgorithmExamples\AlgorithmExamples\obj\Debug\AlgorithmExamples.csprojResolveAssemblyReference.cache
 C:\Github\AlgorithmExamples\AlgorithmExamples\obj\Debug\AlgorithmExamples.exe
 C:\Github\AlgorithmExamples\AlgorithmExamples\obj\Debug\AlgorithmExamples.pdb
+C:\Github\Algorithm-Examples\Algorithm-Examples\AlgorithmExamples\bin\Debug\AlgorithmExamples.exe.config
+C:\Github\Algorithm-Examples\Algorithm-Examples\AlgorithmExamples\bin\Debug\AlgorithmExamples.exe
+C:\Github\Algorithm-Examples\Algorithm-Examples\AlgorithmExamples\bin\Debug\AlgorithmExamples.pdb
+C:\Github\Algorithm-Examples\Algorithm-Examples\AlgorithmExamples\obj\Debug\AlgorithmExamples.csprojResolveAssemblyReference.cache
+C:\Github\Algorithm-Examples\Algorithm-Examples\AlgorithmExamples\obj\Debug\AlgorithmExamples.csproj.CoreCompileInputs.cache
+C:\Github\Algorithm-Examples\Algorithm-Examples\AlgorithmExamples\obj\Debug\AlgorithmExamples.exe
+C:\Github\Algorithm-Examples\Algorithm-Examples\AlgorithmExamples\obj\Debug\AlgorithmExamples.pdb

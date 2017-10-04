@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AlgorithmExamples
 {
@@ -62,6 +58,12 @@ namespace AlgorithmExamples
                 }
                 Console.WriteLine(isPrime);
             }
+
+            // Palindrome Checker
+            // Checks to see if word is a palindrome
+            Console.WriteLine("\nPlease enter a word to check if it is a palindrome:");
+            string word = Console.ReadLine();
+            Console.WriteLine(word);
             Console.ReadLine();
         }
     }
