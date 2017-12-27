@@ -2,27 +2,38 @@
 
 namespace AlgorithmExamples
 {
-    class Examples
+    public class Examples
     {
         static void Main(string[] args)
+        {
+            Fizzbuzz();
+            Fibonacci();
+            PrimeNumber();
+            Palindrome();
+        }
+
+        public static void Fizzbuzz()
         {
             // Fizzbuzz
             // if divisible by 3 log fizz, if 5 log buzz if both log fizzbuzz
             Console.WriteLine("Please enter a number for Fizzbuzz:");
             int length = Convert.ToInt32(Console.ReadLine());
-            
-            for(var i = 1; i < length; i++)
+
+            for (var i = 1; i < length; i++)
             {
-                if(i % 3 == 0 && i % 5 == 0)
+                if (i % 3 == 0 && i % 5 == 0)
                     Console.WriteLine("Fizzbuzz");
-                else if(i % 5 == 0)
+                else if (i % 5 == 0)
                     Console.WriteLine("Buzz");
-                else if(i % 3 == 0)
+                else if (i % 3 == 0)
                     Console.WriteLine("Fizz");
                 else
                     Console.WriteLine(i);
             }
+        }
 
+        public static void Fibonacci()
+        {
             // Fibonacci
             // Starts at zero and adds each number to itself 
             Console.WriteLine("\nPlease Enter a Number for Fibonacci:");
@@ -37,7 +48,10 @@ namespace AlgorithmExamples
                 a = b;
                 b = c;
             }
+        }
 
+        public static void PrimeNumber()
+        {
             // Prime Number
             // Checks to see if number is prime
             Console.WriteLine("\nPlease Enter a Number To Check if Prime:");
@@ -49,7 +63,7 @@ namespace AlgorithmExamples
                 {
                     if (i != j)
                     {
-                        if(i % j == 0)
+                        if (i % j == 0)
                         {
                             isPrime = false;
                             break;
@@ -58,6 +72,11 @@ namespace AlgorithmExamples
                 }
                 Console.WriteLine(isPrime);
             }
+        }
+
+        public static void Palindrome()
+        {
+
 
             // Palindrome Checker
             // Checks to see if word is a palindrome
