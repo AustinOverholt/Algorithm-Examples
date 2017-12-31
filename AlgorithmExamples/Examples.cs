@@ -6,9 +6,9 @@ namespace AlgorithmExamples
     {
         static void Main(string[] args)
         {
-            Fizzbuzz();
-            Fibonacci();
-            PrimeNumber();
+            //Fizzbuzz();
+            //Fibonacci();
+            //PrimeNumber();
             Palindrome();
         }
 
@@ -76,13 +76,29 @@ namespace AlgorithmExamples
 
         public static void Palindrome()
         {
-
-
             // Palindrome Checker
             // Checks to see if word is a palindrome
+
+            // Asks for word to check
             Console.WriteLine("\nPlease enter a word to check if it is a palindrome:");
+            // Saves that word to word variable
             string word = Console.ReadLine();
-            Console.WriteLine(word);
+            // Need to reverse string
+            // Turn string into char array
+            char[] charArray = word.ToCharArray();
+            // Reverse the array
+            Array.Reverse(charArray);
+            // Turn array into string
+            string reversedWord = new string(charArray);
+
+            // Then check if string is equal to reversed string
+            if(reversedWord == word)
+            {
+                Console.WriteLine("{0} is a palindrome", word);
+            } else
+            {
+                Console.WriteLine(word + " is not a palindrome");
+            }
             Console.ReadLine();
         }
     }
