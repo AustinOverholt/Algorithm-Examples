@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmExamples", "AlgorithmExamples\AlgorithmExamples.csproj", "{A19E114F-8948-4646-9370-382EA8D9FDA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavascriptExamples", "JavascriptExamples\JavascriptExamples.csproj", "{CD8011BF-C5D2-421D-9DF0-D98EECEE9D4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{A19E114F-8948-4646-9370-382EA8D9FDA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A19E114F-8948-4646-9370-382EA8D9FDA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A19E114F-8948-4646-9370-382EA8D9FDA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD8011BF-C5D2-421D-9DF0-D98EECEE9D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8011BF-C5D2-421D-9DF0-D98EECEE9D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8011BF-C5D2-421D-9DF0-D98EECEE9D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8011BF-C5D2-421D-9DF0-D98EECEE9D4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BDED010-1FC8-4340-8F83-B094203510D9}
 	EndGlobalSection
 EndGlobal
