@@ -9,8 +9,11 @@ namespace AlgorithmExamples
             //Fizzbuzz();
             //Fibonacci();
             //PrimeNumber();
-            Palindrome();
+            //Palindrome();
+            VolumeOfCylinder();
         }
+
+        
 
         public static void Fizzbuzz()
         {
@@ -99,6 +102,27 @@ namespace AlgorithmExamples
             {
                 Console.WriteLine(word + " is not a palindrome");
             }
+            Console.ReadLine();
+        }
+
+        public static void VolumeOfCylinder()
+        {
+            // Formula to find Volume of a cylinder
+            // Volume = pi * radius^2 * height
+
+            Console.WriteLine("Please input the radius of the cylinder");
+            double radius = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Please input the height of the cylinder");
+            double height = Convert.ToDouble(Console.ReadLine());
+
+
+            double pi = 3.14159265358979;
+            double result;
+
+            result = pi * (radius * radius) * height;
+
+            Console.WriteLine(result);
             Console.ReadLine();
         }
     }
