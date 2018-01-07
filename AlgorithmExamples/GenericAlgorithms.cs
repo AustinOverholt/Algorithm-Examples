@@ -26,6 +26,7 @@ namespace AlgorithmExamples
                 else
                     Console.WriteLine(i);
             }
+            Console.ReadLine();
         }
 
         public static void Fibonacci()
