@@ -10,8 +10,10 @@ namespace AlgorithmExamples
             //GenericAlgorithms.Fibonacci();
             //GenericAlgorithms.PrimeNumber();
             //GenericAlgorithms.Palindrome();
+            GenericAlgorithms.StringToInt();
             //GenericAlgorithms.VolumeOfCylinder();
-            SortingAlgorithms.BubbleSort();
+            //SortingAlgorithms.BubbleSort();
+            //SortingAlgorithms.InsertionSort();
         }
 
 

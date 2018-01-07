@@ -119,5 +119,31 @@ namespace AlgorithmExamples
             Console.WriteLine(result);
             Console.ReadLine();
         }
+
+        public static void StringToInt()
+        {
+            // Convert string to int WITHOUT using casting 
+            Console.WriteLine("Please enter a string of numbers");
+            // take input of numbers and save to string
+            string numString = Console.ReadLine();
+
+            // turn string of numbers into char array 
+            byte[] ASCIIValues = Encoding.ASCII.GetBytes(numString);
+
+            // int for final output
+            int finalInt = 0;
+
+            // iterate over that char array
+            for(int i = 0; i < ASCIIValues.Length; i++)
+            {
+                // Take Ascii value and subtract from 48 (Ascii of 0)
+                // Multiply that number by the power of the current i to send over to new 0s place
+                // Find out way to do this without casting int 
+                finalInt += ((ASCIIValues[i] - 48) * (int)(Math.Pow(10, i)));
+            }
+
+            Console.WriteLine("Your int is: {0}", finalInt);
+            Console.ReadLine();
+        }
     }
 }
