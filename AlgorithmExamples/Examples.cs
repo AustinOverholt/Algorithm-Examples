@@ -33,31 +33,40 @@ namespace AlgorithmExamples
 
             int input = Convert.ToInt32(Console.ReadLine());
 
+            Console.Clear();
             switch (input)
             {
                 case 1:
                     GenericAlgorithms.Fizzbuzz();
+                    Startup();
                     break;
                 case 2:
                     GenericAlgorithms.Fibonacci();
+                    Startup();
                     break;
                 case 3:
                     GenericAlgorithms.PrimeNumber();
+                    Startup();
                     break;
                 case 4:
                     GenericAlgorithms.Palindrome();
+                    Startup();
                     break;
                 case 5:
                     GenericAlgorithms.StringToInt();
+                    Startup();
                     break;
                 case 6:
                     GenericAlgorithms.VolumeOfCylinder();
+                    Startup();
                     break;
                 case 7:
                     SortingAlgorithms.BubbleSort();
+                    Startup();
                     break;
                 case 8:
                     SortingAlgorithms.InsertionSort();
+                    Startup();
                     break;
                 //case 'Q':
                     //break;

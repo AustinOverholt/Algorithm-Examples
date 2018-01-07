@@ -45,6 +45,7 @@ namespace AlgorithmExamples
                 a = b;
                 b = c;
             }
+            Console.ReadLine();
         }
 
         public static void PrimeNumber()
@@ -69,6 +70,7 @@ namespace AlgorithmExamples
                 }
                 Console.WriteLine(isPrime);
             }
+            Console.ReadLine();
         }
 
         public static void Palindrome()

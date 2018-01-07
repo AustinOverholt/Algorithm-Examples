@@ -112,6 +112,7 @@ namespace AlgorithmExamples
                 Console.Write(val + ",");
             }
             Console.WriteLine();
+            Console.ReadLine();
         }
     }
 }
